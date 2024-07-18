@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  var numeroUm = stdin.readLineSync();
-  var numeroDois = stdin.readLineSync();
-  print(numeroUm! + numeroDois!);
+  double numeroUm = double.parse(stdin.readLineSync()!);
+  double numeroDois = double.parse(stdin.readLineSync()!);
+  print(numeroUm + numeroDois);
 }
